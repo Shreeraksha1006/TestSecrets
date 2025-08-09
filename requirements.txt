@@ -1,0 +1,10 @@
+pymilvus==2.3.6
+sentence-transformers==3.3.1
+docling==2.8.0
+docling-core==2.5.1
+docling-ibm-models==2.0.6
+docling-parse==2.1.2
+langchain==0.3.9
+python-dotenv==1.0.0
+fastapi==0.109.2
+uvicorn
