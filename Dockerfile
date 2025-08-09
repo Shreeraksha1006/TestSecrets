@@ -1,5 +1,6 @@
 # Use the official Python image as a base image
-FROM python:3.11-slim
+FROM docker.io/library/python:3.11-slim
+
 RUN apt-get update --fix-missing && apt-get install -y --fix-missing build-essential
 # Set the working directory in the container
 WORKDIR /app
